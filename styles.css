@@ -110,19 +110,21 @@ body{
     margin-right: 170px;
 }
 
+/* support section */
 
-.support{
-    margin-left: 250px;
-    text-align: center;
+.support-section{
     display: flex;
     justify-content: center;
-    background-color: rgba(39, 39, 39, 0.05);
     margin-bottom: 100px;
-    padding: 20px;
 }
-.support > div{
-    position: relative;
-    margin-right: 25px;
+.support{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 40px 0px;
 }
 
 .hot-deal{
@@ -185,6 +187,7 @@ body{
     border: none;
     border-radius: 8px;
     padding: 22px 200px;
+    margin-left: 60px;
 }
 
 /* footer section */

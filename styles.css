@@ -121,7 +121,8 @@ body{
     width: 75vw;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 80px;
+    text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     padding: 40px 0px;
@@ -182,7 +183,6 @@ body{
 }
 .banner input[type="email"]{
     background-color: #FFF;
-    text-align: left;
     color: rgba(39, 39, 39, 0.60);
     border: none;
     border-radius: 8px;

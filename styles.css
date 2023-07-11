@@ -8,7 +8,7 @@ body{
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
-    padding: 20px 43px;
+    padding: 20px 30px;
     border: none;
     border-radius: 8px;
     background: #E55473;
@@ -19,7 +19,7 @@ body{
 }
 .heading-text{
     color: #272727;
-    font-size: 65px;
+    font-size: 30px;
     font-weight: 800;
 }
 .paragraph-text{
@@ -37,12 +37,15 @@ body{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 .header-content{
     position: relative;
     left: 8%;
     top: 17%;
-
+}
+.header-content > h1{
+    font-size: 50px;
 }
 .header .paragraph-text{
     max-width: 600px;
@@ -51,4 +54,136 @@ body{
     max-height: 90vh;
     position: relative;
     top: 10%;
+}
+
+/* featured section */
+.featured{
+    margin-bottom: 100px;
+}
+.featured-text{
+    text-align: center;
+}
+.featured-content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.featured-flower{
+    height: 360px;
+    width: 360px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-decoration: underline;
+}
+.featured-flower > img{
+    height: auto;
+    width: 200px;
+    position: relative;
+    top: 23%;
+    left: 17%;
+}
+.second{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.third{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.third > img{
+    top: 17%;
+}
+.flower-caption{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 150px;
+
+}
+.flower-caption > p{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-right: 170px;
+}
+
+
+.support{
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.support > div{
+    position: relative;
+    margin-right: 25px;
+}
+
+.hot-deal{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.1);
+    height: 500px;
+    margin-bottom: 100px;
+}
+.deal-text{
+    transform: translateY(25%);
+    text-align: center;
+}
+.deal-image > img{
+    height: 350px;
+    width: auto;
+    position: relative;
+    top: 20%;
+}
+
+/* instagram section */
+.instagram{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.insta-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.insta-container img{
+    width: 260px;
+}
+
+/* bottom banner */
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.banner{
+    width: 1140px;
+    height: 400px;
+    background-image: url(Asset/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-content{
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+.banner input[type="email"]{
+    background-color: #FFF;
+    text-align: left;
+    color: rgba(39, 39, 39, 0.60);
+    border: none;
+    border-radius: 8px;
+    padding: 22px 200px;
+    margin-right: 20px;
 }

@@ -96,8 +96,8 @@ body{
 .flower-caption{
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-left: 150px;
+    gap: 60px;
+    margin-left: 140px;
 
 }
 .flower-caption > p{
@@ -185,5 +185,27 @@ body{
     border: none;
     border-radius: 8px;
     padding: 22px 200px;
-    margin-right: 20px;
+}
+
+/* footer section */
+.footer{
+    height: 350px;
+    background-color:#111010;
+    text-align: center;
+}
+.footer-content{
+    position: relative;
+    top: 30%;
+}
+.footer h2{
+    color: #FFF;
+}
+span{
+    color: #E55473;
+}
+.footer p{
+    color:#FFF;
+}
+.footer small{
+    color: rgba(255, 255, 255, 0.40);
 }
